@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial;
+    /* border: 1px solid black; */
+
+
+}
+
+.container{
+
+    width: 100%;
+    height: 150vh;
+    background-color: #f3eded;
+
+}
+
+.topnavbar{
+
+    width: 100%;
+    height: 60px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar1{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.navbar2{
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.navbar2 p{
+    font-size: 16px;
+}
+
+.navbar3{
+    height: auto;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar3 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    
+    gap: 20px;
+}
+
+.navbar3 button:nth-child(2) {
+    
+    background-color: transparent; 
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    height: 40px;
+}
+.secondnavbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(246, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+
+}
+
+.secondnavbar img{
+    width: 55px;
+    height: 60px;
+}
+
+.secondnavbar p{
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.heading{
+
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.heading h1{
+    font-size: 45px;
+   line-height: 1;
+}
+.heading p{
+    margin: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.searchbar {
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar input{
+
+    width: 300px;
+    height: 40px;
+    border-radius: 25px 0 0 25px;
+    border: 1px solid black;
+    
+}
+
+.searchbar button{
+
+    width: 100px;
+    height: 40px;
+    border-radius: 0 25px 25px 0;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 10px;
+
+}
+
+
+.searchbar ::placeholder{
+    text-align: center;
+}
+
+.exploreheadind{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainbox{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.card{
+    padding: 15px;
+    width: 360px;
+    height: 220px;
+    border: 1px solid rgb(227, 223, 223);
+    border-radius: 30px;
+    padding-bottom: 20PX;
+    background-color: #fdf8f8;
+    box-shadow: rgb(22, 22, 22);
+}
+
+.download{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+
+}
+
+.download button{
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+
+}
+
+.hp{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hp p{
+    font-weight: 800;
+}
+
+
+
+ .card p{
+
+     font-size: 14px;
+     
+    
+ }
+
+
+ .card img{
+
+    width: 40px;
+    height: 35px;
+ }
+
+/*  
+ .download i{
+
+    width: 20px;
+    height: 20px;
+ } */
